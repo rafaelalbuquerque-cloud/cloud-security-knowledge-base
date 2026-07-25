@@ -15,7 +15,7 @@ curated front door.
 - Terraform and secure infrastructure as code
 - DevSecOps and software supply chain security
 - FinOps and cost-aware security
-- AI security and future private RAG
+- AI security and future semantic retrieval
 - Governance, identity, networking, and incident response
 - Landing zones and enterprise architecture patterns
 
@@ -30,7 +30,7 @@ Cloud Security Codex website
         ↓
 Labs · Case studies · ADRs · Roadmaps
         ↓
-Private retrieval and AI assistance (future)
+Semantic retrieval and AI-assisted discovery (future)
 ```
 
 ## Repository map

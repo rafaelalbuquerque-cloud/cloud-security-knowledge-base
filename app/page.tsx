@@ -160,12 +160,12 @@ export default function Home() {
             <strong>CODEX</strong>
           </div>
           <div className="map-nodes">
-            <div className="map-node node-aws"><b>AWS</b><small>43 topics</small></div>
-            <div className="map-node node-azure"><b>AZURE</b><small>28 topics</small></div>
-            <div className="map-node node-oci"><b>OCI</b><small>17 topics</small></div>
-            <div className="map-node node-k8s"><b>K8S</b><small>31 topics</small></div>
-            <div className="map-node node-iac"><b>IaC</b><small>26 topics</small></div>
-            <div className="map-node node-ai"><b>AI</b><small>12 topics</small></div>
+            <div className="map-node node-aws"><b>AWS</b><small>roadmap</small></div>
+            <div className="map-node node-azure"><b>AZURE</b><small>roadmap</small></div>
+            <div className="map-node node-oci"><b>OCI</b><small>roadmap</small></div>
+            <div className="map-node node-k8s"><b>K8S</b><small>roadmap</small></div>
+            <div className="map-node node-iac"><b>IaC</b><small>roadmap</small></div>
+            <div className="map-node node-ai"><b>AI</b><small>roadmap</small></div>
           </div>
           <div className="map-lines" aria-hidden="true">
             <i className="line l1" /><i className="line l2" /><i className="line l3" />
@@ -175,10 +175,10 @@ export default function Home() {
       </section>
 
       <section className="metrics" aria-label="Codex metrics">
-        <div><strong>12</strong><span>knowledge domains</span></div>
-        <div><strong>146</strong><span>curated topics</span></div>
-        <div><strong>38</strong><span>hands-on labs</span></div>
-        <div><strong>21</strong><span>enterprise patterns</span></div>
+        <div><strong>06</strong><span>starter topics</span></div>
+        <div><strong>01</strong><span>guided path</span></div>
+        <div><strong>05</strong><span>lab backlog</span></div>
+        <div><strong>04</strong><span>field patterns</span></div>
       </section>
 
       <section className="explore section" id="explore">
@@ -369,7 +369,7 @@ export default function Home() {
           </p>
         </div>
         <div className="ecosystem-flow" aria-label="Cloud Security Codex ecosystem">
-          {["Markdown", "GitHub", "Knowledge base", "Labs & cases", "Private RAG"].map((item, index) => (
+          {["Markdown", "GitHub", "Knowledge base", "Labs & cases", "Semantic search"].map((item, index) => (
             <div key={item}><span>0{index + 1}</span><strong>{item}</strong>{index < 4 && <b>→</b>}</div>
           ))}
         </div>
